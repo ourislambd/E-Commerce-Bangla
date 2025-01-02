@@ -1,0 +1,438 @@
+/*Frameworks*/
+a.add-to-wishlist.white-bg.black.green-bg-hover.white-hover {
+font-size: 16px;
+font-family: ui-serif;
+opacity: .8;
+}
+i.fa-solid.fa-circle-info {
+color: yellowgreen;
+position: relative;
+left: 5px;
+}
+/*-- Review Box --*/
+h3.reviews-title {
+font-size: 10px;
+color: dodgerblue;
+font-weight: 600;
+margin-left: 23px;
+margin-top: 30px;
+margin-bottom: -30px;
+}
+.reviews-title:after {
+content: '';
+display: inline-block;
+vertical-align: middle;
+width: 25px;
+margin: 0 7px;
+border-bottom: 1px solid #989b9f;
+opacity: .5;
+}
+.review-section{
+display: block;
+margin-top: 50px;
+text-align: center;
+}
+.review-section p{
+font-size: 10px;
+text-align: left;
+padding: 2px 25px;
+opacity: .8;
+color: #333;
+line-height: 14px;
+}
+.review-section span:after{
+content: "\f005";
+font-family: FontAwesome;
+font-weight: 800;
+font-size: 7px;
+color: #FFD700;
+float:left;
+position: relative;
+bottom: 9px;
+left: 100px;
+}
+.add-review:after{
+content: "\f044";
+font-family: FontAwesome;
+font-weight: 500;
+font-size: 10px;
+color: dodgerblue;
+position: relative;
+margin-left: 8px;
+}
+.add-review {
+text-align: center;
+margin-top: 35px;
+margin-bottom: 20px;
+}
+/*-- Rating --*/
+.shop-rating{
+float: right;
+position: relative;
+right: 18px;
+bottom: 705px;
+font-size: 14px;
+}
+.shop-rating:after{
+content: "\f005";
+font-family: FontAwesome;
+font-weight: 800;
+font-size: 15px;
+margin-left: 5px;
+color: #FFD700;
+}
+div#home-sticky {
+display: none;
+}
+/*-- Custom Bundle 2 Style --*/
+.bundle-2 {
+box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%);
+display: inline-block;
+height: 150px;
+margin-bottom: 40px;
+margin-right: 35px;
+width: 125px;
+border-radius: 23px;
+box-sizing: border-box;
+background: radial-gradient(50.3% 35.01% at 49.7% 29.54%, #ffdde1 0%, #034ea2 90%);
+}
+.bundle-2 price {
+color: white;
+display: block;
+font-size: 11px;
+letter-spacing: 1px;
+font-weight: 800;
+text-align: center;
+margin-top: 5px;
+margin-bottom: 11px;
+text-transform: uppercase;
+}
+.bundle-2 small {
+display: block;
+font-size: 9px;
+font-weight: 700;
+letter-spacing: .6px;
+text-align: center;
+line-height: 15px;
+background: #FFD700;
+border-radius: 3px;
+color: #333;
+width: 50%;
+padding:3px 2px;
+margin: auto;
+}
+.bundle-2 #mics {
+background-image: url(https://bit.ly/3RoGz3H);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 65px;
+padding-top: 90px;
+}
+.bundle-2 #earbuds {
+background-image: url(https://bit.ly/3tf4KJY);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 75px;
+padding-top: 90px;
+}
+.bundle-2 #hot-selling {
+background-image: url(https://bit.ly/487x4gA);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 80px;
+padding-top: 90px;
+}
+.bundle-2 #smart-watches {
+background-image: url(https://bit.ly/3H6YDL7);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 68px;
+padding-top: 90px;
+}
+/*-- Custom Bundle Style --*/
+.bundle-s{
+margin-top: 80px;
+text-align: center;
+position: relative;
+padding-left: 35px;
+}
+.bundle {
+box-shadow: 0 4px 8px 0 rgb(0 0 0 / 15%);
+display: inline-block;
+height: 148px;
+margin-bottom: 40px;
+margin-right: 35px;
+width: 120px;
+border-radius: 20px;
+box-sizing: border-box;
+}
+.bundle price {
+color: dodgerblue;
+display: block;
+font-size: 12px;
+letter-spacing: 1px;
+font-weight: 800;
+text-align: center;
+margin-top: 2px;
+margin-bottom: 4px;
+}
+.bundle small {
+display: block;
+color: #333;
+font-size: 10px;
+letter-spacing: .6px;
+text-align: center;
+line-height: 15px;
+margin: 0 5px 0 4px;
+}
+.bundle #parcel-video {
+background-image: url(https://bit.ly/3RIRgzt);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 95px;
+padding-top: 90px;
+}
+.bundle #express-delivery {
+background-image: url(https://bit.ly/3tp9o87);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 83px;
+padding-top: 90px;
+}
+.bundle #satisfaction {
+background-image: url(https://bit.ly/3RKnhab);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 90px;
+padding-top: 90px;
+}
+.bundle #return {
+background-image: url(https://bit.ly/4amjdnX);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 75px;
+padding-top: 90px;
+}
+/*CHAT NOW*/
+a.close-chat a:link,
+a:visited {
+text-decoration: none;
+transition: all 0.4s ease-in-out;
+}
+/* CSS Multiple Whatsapp Chat */
+.whatsapp-name {
+font-size: 16px;
+font-weight: 600;
+padding-bottom: 0;
+margin-bottom: 0;
+line-height: 0.5;
+}
+#whatsapp-chat {
+box-sizing: border-box !important;
+outline: none !important;
+position: fixed;
+width: 350px;
+border-radius: 10px;
+box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
+bottom: 90px;
+right: 30px;
+overflow: hidden;
+z-index: 99;
+animation-name: showchat;
+animation-duration: 1s;
+transform: scale(1);
+}
+a.blantershow-chat {
+bottom: 15px;
+position: fixed; right: 15px;
+z-index: 98;
+}
+.header-chat {
+/*   background: linear-gradient(to right top, #6f96f3, #164ed2); */
+background: #009688;
+background: #095e54;
+color: #fff;
+padding: 20px;
+}
+.header-chat p {
+font-size: 14px;
+line-height: 1.7;
+margin: 0;
+}
+.info-avatar {
+position: relative;
+}
+.info-avatar img {
+border-radius: 100%;
+width: 50px;
+float: left;
+margin: 0 10px 0 0;
+}
+a.informasi {
+padding: 20px;
+display: block;
+overflow: hidden;
+animation-name: showhide;
+animation-duration: 0.5s;
+}
+a.informasi:hover {
+background: #f1f1f1;
+}
+.info-chat span {
+display: block;
+}
+#get-label,
+span.chat-label {
+font-size: 12px;
+color: #888;
+}
+#get-nama,
+span.chat-nama {
+margin: 5px 0 0;
+font-size: 15px;
+font-weight: 700;
+color: #222;
+}
+#get-label,
+#get-nama {
+color: #fff;
+}
+span.my-number {
+display: none;
+}
+/* .blanter-msg {
+color: #444;
+padding: 20px;
+font-size: 12.5px;
+text-align: center;
+border-top: 1px solid #ddd;
+} */
+textarea#chat-input {
+border: none;
+font-family: "Arial", sans-serif;
+width: 100%;
+height: 20px;
+outline: none;
+resize: none;
+padding: 10px;
+font-size: 14px;
+}
+a#send-it {
+width: 30px;
+font-weight: 700;
+padding: 10px 10px 0;
+background: #eee;
+}
+}
+.first-msg {
+background: transparent;
+padding: 30px;
+text-align: center;
+& span {
+background: #e2e2e2;
+color: #333;
+font-size: 14.2px;
+line-height: 1.7;
+border-radius: 10px;
+padding: 15px 20px;
+display: inline-block;
+}
+}
+.start-chat .blanter-msg {
+display: flex;
+}
+#get-number {
+display: none;
+}
+a.close-chat {
+position: absolute;
+top: 5px;
+right: 15px;
+color: #fff;
+font-size: 30px;
+}
+@keyframes ZpjSY {
+0% {
+background-color: rgb(182, 181, 186);
+}
+15% {
+background-color: rgb(17, 17, 17);
+}
+25% {
+background-color: rgb(182, 181, 186);
+}
+}
+@keyframes hPhMsj {
+15% {
+background-color: rgb(182, 181, 186);
+}
+25% {
+background-color: rgb(17, 17, 17);
+}
+35% {
+background-color: rgb(182, 181, 186);
+}
+}
+@keyframes iUMejp {
+25% {
+background-color: rgb(182, 181, 186);
+}
+35% {
+background-color: rgb(17, 17, 17);
+}
+45% {
+background-color: rgb(182, 181, 186);
+}
+}
+@keyframes showhide {
+from {
+transform: scale(0.5);
+opacity: 0;
+}
+}
+@keyframes showchat {
+from {
+transform: scale(0);
+opacity: 0;
+}
+}
+@media screen and (max-width: 480px) {
+#whatsapp-chat {
+width: auto;
+left: 5%;
+right: 5%;
+font-size: 80%;
+}
+}
+.hide {
+display: none;
+animation-name: showhide;
+animation-duration: 0.5s;
+transform: scale(1);
+opacity: 1;
+}
+.show {
+display: block;
+animation-name: showhide;
+animation-duration: 0.5s;
+transform: scale(1);
+opacity: 1;
+}
+.whatsapp-message-container {
+display: flex;
+z-index: 1;
+}
+.whatsapp-message {
+padding: 7px 14px 6px;
+background-color: rgb(255, 255, 255);
+border-radius: 0px 8px 8px;
+position: relative;
+transition: all 0.3s ease 0s;
+opacity: 0;
+transform-origin: center top 0px;
+z-index: 2;
+box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 0.5px;
+margin-top: 4px;
+margin-left: -54px;
+max-width: calc(100% - 66px);
+}
